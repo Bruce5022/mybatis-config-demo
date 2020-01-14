@@ -2,6 +2,10 @@
 <!DOCTYPE configuration
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--
+D:\repository\org\mybatis\mybatis\3.5.1\mybatis-3.5.1.jar!\org\apache\ibatis\builder\xml\mybatis-3-config.dtd
+这东西原来在jar包里啊!!!
+-->
 <configuration>
     <properties resource="dbconfig.properties"/>
     <settings>
