@@ -12,8 +12,8 @@ D:\repository\org\mybatis\mybatis\3.5.1\mybatis-3.5.1.jar!\org\apache\ibatis\bui
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
     <typeAliases>
-        <!--<typeAlias type="com.sky.mybatis.model.Personon" alias="user"/>-->
-        <package name="com.sky.mybatis.model" />
+        <typeAlias type="com.sky.mybatis.model.Person"/>
+        <!--<package name="com.sky.mybatis.model" />-->
     </typeAliases>
     <environments default="development">
         <environment id="development">

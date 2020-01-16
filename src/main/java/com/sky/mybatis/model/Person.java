@@ -1,8 +1,11 @@
 package com.sky.mybatis.model;
 
 
+import org.apache.ibatis.type.Alias;
+
 import java.sql.Date;
 
+@Alias("szw")
 public class Person {
 
     private Integer id;
